@@ -1,0 +1,4 @@
+rootProject.name = 'smart-tager'
+
+include ':instagram-java-scraper'
+project(':instagram-java-scraper').projectDir = new File(settingsDir, '../instagram-java-scraper')
